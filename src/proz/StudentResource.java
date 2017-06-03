@@ -26,7 +26,7 @@ public class StudentResource {
 		Student student = new Student();
 		student.setFirstName("Kamil");
 		student.setLastName("Bibus");
-		student.setIndexNo(1);
+		student.setIndexNo(12345);
 		return student;
 	}
 }
