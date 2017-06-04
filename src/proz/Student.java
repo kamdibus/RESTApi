@@ -38,6 +38,12 @@ public class Student {
 		case "APPLICATION_XML":
 			this.mime = "application/xml";
 			break;
+		case "TEXT_HTML":
+			this.mime = "text/html";
+			break;
+		case "TEXT_PLAIN":
+			this.mime = "text/plain";
+			break;
 
 		default:
 			break;
